@@ -27,5 +27,6 @@
 		CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), (CFStringRef)[specifier.properties objectForKey:@"PostNotification"], NULL, NULL, YES);
 	}
 	[super setPreferenceValue:value specifier:specifier];
+}
 
 @end
