@@ -27,7 +27,7 @@ NSMutableDictionary *preferences = [[NSMutableDictionary alloc] initWithContents
 
   //In line 17 you need to change "com.lacertosusrepo.stellaeprefs/prferences.changed" to your own i.e "com.NAME.blockpowerdown/preferences.changed"
   //Also this needs to be underneath the function "loadPrefs()"
-static NSString *nsNotificationString = @"com.lacertosusrepo.stellaeprefs/preferences.changed";
+static NSString *nsNotificationString = @"com.cooper.blockpowerdownprefs/preferences.changed";
 static void notificationCallback(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo) {
   loadPrefs();
 }
