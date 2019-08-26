@@ -4,12 +4,14 @@
 <dict>
 	<key>items</key>
 	<array>
+
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string></string>
 		</dict>
+
 		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
@@ -17,15 +19,16 @@
 			<true/>
 			<key>defaults</key>
 			<string>com.cooper.blockpowerdownprefs</string>
-			<key>key</key>
-			<string>Enable</string>
 			<key>label</key>
-			<string>Enable</string>
+			<string>Enabled</string>
+			<key>key</key>
+			<string>Enabled</string>
 			<key>PostNotification</key>
-			<string>com.cooper.blockpowerdownprefs/preferences.changed</string>
+			<string>com.cooper.blockpowerdownprefs/ReloadPrefs</string>
 		</dict>
+
 	</array>
 	<key>title</key>
-	<string>BlockPowerDownPrefs</string>
+	<string>BlockPowerDown</string>
 </dict>
 </plist>

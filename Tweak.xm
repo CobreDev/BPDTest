@@ -4,9 +4,9 @@
 %hook SBPowerDownController
   -(void)orderFront{
 
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hey!"
-    message:@"Why are you trying to shutdown my phone?"
-    delegate:self cancelButtonTitle: @"Cancel"
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Alert"
+    message:@"Shutdown is not allowed"
+    delegate:self cancelButtonTitle: @"Ok"
     otherButtonTitles:nil];
 
     [alert show];

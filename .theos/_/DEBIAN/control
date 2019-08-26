@@ -1,0 +1,10 @@
+Package: com.cooper.blockpowerdown
+Name: BlockPowerDown
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Blocks the power down menu!
+Maintainer: Cooper Hull
+Author: Cooper Hull
+Section: Tweaks
+Version: 0.0.1-10+debug
+Installed-Size: 512
